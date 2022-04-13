@@ -45,6 +45,12 @@ public class errorUIController{
             case 6:
                 hibauzenet.setText("Írj be egy weboldalt");
                 break;
+            case 7:
+                hibauzenet.setText("A két jelszó nem egyezik");
+                break;
+            case 8:
+                hibauzenet.setText("Eddig is ez volt a jelszavad");
+                break;
             default:
                 break;
         }
